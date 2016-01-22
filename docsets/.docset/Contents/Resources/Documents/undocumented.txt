@@ -14,8 +14,6 @@ CloudManager.swift
 	public class CloudManager
 Arbitrary.swift
 	static func arbitrary() -> Self
-	public static func arbitrary() -> Int
-	public static func arbitrary() -> Character
 StreamClient.swift
 	public class StreamClient: NSObject
 	public class StreamClient : NSObject
