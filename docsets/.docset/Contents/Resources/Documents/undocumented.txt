@@ -13,7 +13,7 @@ CloudManager.swift
 	public protocol CloudRelation : CloudObject
 	public class CloudManager
 Arbitrary.swift
-	public protocol Arbitrary
+	static func arbitrary() -> Self
 	public static func arbitrary() -> Int
 	public static func arbitrary() -> Character
 StreamClient.swift
@@ -26,10 +26,7 @@ TextView.swift
 TableController.swift
 	public class TableController<T, C: UITableViewCell>: UITableViewController
 UIView+.swift
-	public func overrideLayoutSubviews(block: Void -> Void)
 	public override class func initialize()
-	public func addConstraintsWithVisualFormat(views: [String: UIView], metrics: [String: AnyObject]? = nil)(format: String)
-	public func addConstraint(item view1: AnyObject, attribute attr1: NSLayoutAttribute, relatedBy relation: NSLayoutRelation, toItem view2: AnyObject?, attribute attr2: NSLayoutAttribute, multiplier: CGFloat, constant c: CGFloat)
 CollectionView.swift
 	public class CollectionView<T, C: UICollectionViewCell>: UICollectionView, UICollectionViewDataSource
 SimpleTransition.swift
@@ -75,9 +72,7 @@ UITableView+.swift
 	final func forwardIndexPath(indexPath: NSIndexPath) -> NSIndexPath?
 	final func backwardIndexPath(indexPath: NSIndexPath) -> NSIndexPath?
 String+.swift
-	public func stringByRemovingSpecialCharacters() -> String
-	mutating public func removeSpecialCharacters()
-	public func isIPAddress() -> Bool
+	case IPAddress
 PresentationController.swift
 	public class PresentationController: UIPresentationController
 UIControl+.swift
@@ -100,9 +95,6 @@ TransitionDelegate.swift
 	public class TransitionDelegate: UIPercentDrivenInteractiveTransition
 	public class TransitionDelegate : UIPercentDrivenInteractiveTransition
 	public class TransitionDelegate : UIPercentDrivenInteractiveTransition
-Range+.swift
-	public func random() -> Element
-	public func rangeByOffset(value: Int) -> Range
 FadePlaceholder.swift
 	public protocol FadePlaceholder: class
 	public protocol FadePlaceholder : class

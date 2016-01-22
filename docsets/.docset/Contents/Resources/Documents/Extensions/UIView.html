@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>UIView Extension Reference</title>
+    <link rel="stylesheet" type="text/css" href="../css/jazzy.css" />
+    <link rel="stylesheet" type="text/css" href="../css/highlight.css" />
+    <meta charset='utf-8'>
+    <script src="../js/jquery.min.js" defer></script>
+    <script src="../js/jazzy.js" defer></script>
+    
+  </head>
+  <body>
+    <a name="//apple_ref/swift/Extension/UIView" class="dashAnchor"></a>
+    <a title="UIView Extension Reference"></a>
+    <header>
+      <div class="content-wrapper">
+        <p><a href="../index.html"> Docs</a> (26% documented)</p>
+        <p class="header-right"><a href="https://github.com/aquarchitect/MyKit"><img src="../img/gh.png"/>View on GitHub</a></p>
+      </div>
+    </header>
+    <div class="content-wrapper">
+      <p id="breadcrumbs">
+        <a href="../index.html"> Reference</a>
+        <img id="carat" src="../img/carat.png" />
+        UIView Extension Reference
+      </p>
+    </div>
+    <div class="content-wrapper">
+      <nav class="sidebar">
+        <ul class="nav-groups">
+          <li class="nav-group-name">
+            <a href="../Extensions.html">Extensions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Extensions.html#/s:VSs9Character">Character</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions.html#/s:Si">Int</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/Range.html">Range</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/String.html">String</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Extensions/UIView.html">UIView</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Functions.html">Functions</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F8MyKitiOS5delayFTSd5blockFT_T__T_">delay(_:block:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F8MyKitiOS11drawInStateFTGSqCSo9CGContext_6renderFS0_T__T_">drawInState(_:render:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F8MyKitiOS15renderInContextFTVSC6CGSize6opaqueSb6renderFCSo9CGContextT__GSqCSo7UIImage_">renderInContext(_:opaque:render:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F8MyKitiOS7swizzleFTPMPSs9AnyObject_8originalV10ObjectiveC8Selector8swizzledS2__T_">swizzle(_:original:swizzled:)</a>
+              </li>
+              <li class="nav-group-task">
+                <a href="../Functions.html#/s:F8MyKitiOS4timeFFT_T_T_">time(_:)</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Protocols.html">Protocols</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Protocols.html#/s:P8MyKitiOS9Arbitrary">Arbitrary</a>
+              </li>
+            </ul>
+          </li>
+          <li class="nav-group-name">
+            <a href="../Typealiases.html">Typealiases</a>
+            <ul class="nav-group-tasks">
+              <li class="nav-group-task">
+                <a href="../Typealiases.html#/s:8MyKitiOS6Render">Render</a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <article class="main-content">
+        <section>
+          <section class="section">
+            <h1>UIView</h1>
+              <div class="declaration">
+                <div class="language">
+                  <pre class="highlight"><code><span class="kd">class</span> <span class="kt">UIView</span> <span class="p">:</span> <span class="kt">UIResponder</span><span class="p">,</span> <span class="kt">NSCoding</span><span class="p">,</span> <span class="kt">UIAppearance</span><span class="p">,</span> <span class="kt">UIAppearanceContainer</span><span class="p">,</span> <span class="kt">UIDynamicItem</span><span class="p">,</span> <span class="kt">UITraitEnvironment</span><span class="p">,</span> <span class="kt">UICoordinateSpace</span><span class="p">,</span> <span class="kt">UIFocusEnvironment</span></code></pre>
+
+                </div>
+              </div>
+            
+          </section>
+          <section class="section task-group-section">
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Layout%20Subviews%20Swizzling"></a>
+                <a name="//apple_ref/swift/Section/Layout Subviews Swizzling" class="dashAnchor"></a>
+                <a href="#/Layout%20Subviews%20Swizzling">
+                  <h3 class="section-name">Layout Subviews Swizzling</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8MyKitiOSCSo6UIView22overrideLayoutSubviewsFS0_FFT_T_T_"></a>
+                    <a name="//apple_ref/swift/Method/overrideLayoutSubviews(_:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8MyKitiOSCSo6UIView22overrideLayoutSubviewsFS0_FFT_T_T_">overrideLayoutSubviews(_:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Override layout subviews by swizzling without subclassing</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">overrideLayoutSubviews</span><span class="p">(</span><span class="nv">block</span><span class="p">:</span> <span class="kt">Void</span> <span class="o">-&gt;</span> <span class="kt">Void</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div class="task-group">
+              <div class="task-name-container">
+                <a name="/Auto-layout%20Constraints"></a>
+                <a name="//apple_ref/swift/Section/Auto-layout Constraints" class="dashAnchor"></a>
+                <a href="#/Auto-layout%20Constraints">
+                  <h3 class="section-name">Auto-layout Constraints</h3>
+                </a>
+              </div>
+              <ul>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8MyKitiOSCSo6UIView30addConstraintsWithVisualFormatFS0_FTGVSs10DictionarySSS0__7metricsGSqGS1_SSPSs9AnyObject____FT6formatSS_T_"></a>
+                    <a name="//apple_ref/swift/Method/addConstraintsWithVisualFormat(_:metrics:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8MyKitiOSCSo6UIView30addConstraintsWithVisualFormatFS0_FTGVSs10DictionarySSS0__7metricsGSqGS1_SSPSs9AnyObject____FT6formatSS_T_">addConstraintsWithVisualFormat(_:metrics:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Add constraints by using visual format and currying</p>
+
+<pre class="highlight swift"><code>    <span class="p">[</span><span class="s">"H:[self(30)]"</span><span class="p">,</span> <span class="s">"V:[self(50)]"</span><span class="p">]</span><span class="o">.</span><span class="nf">forEach</span><span class="p">(</span><span class="k">self</span><span class="o">.</span><span class="nf">addConstraintsWithVisualFormat</span><span class="p">([</span><span class="s">"self"</span><span class="p">:</span> <span class="k">self</span><span class="p">]))</span>
+</code></pre>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">addConstraintsWithVisualFormat</span><span class="p">(</span><span class="nv">views</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">:</span> <span class="kt">UIView</span><span class="p">],</span> <span class="nv">metrics</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">:</span> <span class="kt">AnyObject</span><span class="p">]?</span> <span class="o">=</span> <span class="kc">nil</span><span class="p">)(</span><span class="nv">format</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+                <li class="item">
+                  <div>
+                    <code>
+                    <a name="/s:FE8MyKitiOSCSo6UIView13addConstraintFS0_FT4itemPSs9AnyObject_9attributeOSC17NSLayoutAttribute9relatedByOSC16NSLayoutRelation6toItemGSqPS1___9attributeS2_10multiplierV12CoreGraphics7CGFloat8constantS5_8prioritySf_T_"></a>
+                    <a name="//apple_ref/swift/Method/addConstraint(item:attribute:relatedBy:toItem:attribute:multiplier:constant:priority:)" class="dashAnchor"></a>
+                    <a class="token" href="#/s:FE8MyKitiOSCSo6UIView13addConstraintFS0_FT4itemPSs9AnyObject_9attributeOSC17NSLayoutAttribute9relatedByOSC16NSLayoutRelation6toItemGSqPS1___9attributeS2_10multiplierV12CoreGraphics7CGFloat8constantS5_8prioritySf_T_">addConstraint(item:attribute:relatedBy:toItem:attribute:multiplier:constant:priority:)</a>
+                    </code>
+                  </div>
+                  <div class="height-container">
+                    <div class="pointer-container"></div>
+                    <section class="section">
+                      <div class="pointer"></div>
+                      <div class="abstract">
+                        <p>Add constraints directly</p>
+
+                      </div>
+                      <div class="declaration">
+                        <h4>Declaration</h4>
+                        <div class="language">
+                          <p class="aside-title">Swift</p>
+                          <pre class="highlight"><code><span class="kd">public</span> <span class="kd">func</span> <span class="nf">addConstraint</span><span class="p">(</span><span class="n">item</span> <span class="nv">view1</span><span class="p">:</span> <span class="kt">AnyObject</span><span class="p">,</span> <span class="n">attribute</span> <span class="nv">attr1</span><span class="p">:</span> <span class="kt">NSLayoutAttribute</span><span class="p">,</span> <span class="n">relatedBy</span> <span class="nv">relation</span><span class="p">:</span> <span class="kt">NSLayoutRelation</span><span class="p">,</span> <span class="n">toItem</span> <span class="nv">view2</span><span class="p">:</span> <span class="kt">AnyObject</span><span class="p">?,</span> <span class="n">attribute</span> <span class="nv">attr2</span><span class="p">:</span> <span class="kt">NSLayoutAttribute</span><span class="p">,</span> <span class="nv">multiplier</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="n">constant</span> <span class="nv">c</span><span class="p">:</span> <span class="kt">CGFloat</span><span class="p">,</span> <span class="nv">priority</span><span class="p">:</span> <span class="kt">Float</span> <span class="o">=</span> <span class="kt">UILayoutPriorityRequired</span><span class="p">)</span></code></pre>
+
+                        </div>
+                      </div>
+                    </section>
+                  </div>
+                </li>
+              </ul>
+            </div>
+          </section>
+        </section>
+        <section id="footer">
+          <p>&copy; 2016 <a class="link" href="https://aquarchitect.github.io" target="_blank" rel="external">HaiNguyen</a>. All rights reserved. (Last updated: 2016-01-21)</p>
+        </section>
+      </article>
+    </div>
+  </body>
+</div>
+</html>
