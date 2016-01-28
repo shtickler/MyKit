@@ -5,6 +5,9 @@ ConstraintView.swift
 Setup.swift
 	public protocol Setup {}
 	public protocol Setup
+RoundCorners.swift
+	public protocol RoundCorners: class
+	public protocol RoundCorners : class
 CloudManager.swift
 	public protocol CloudObject: Equatable
 	public protocol CloudObject : Equatable
@@ -25,6 +28,7 @@ TableController.swift
 	public class TableController<T, C: UITableViewCell>: UITableViewController
 UIView+.swift
 	public override class func initialize()
+	public func swizzledLayoutSubviews()
 CollectionView.swift
 	public class CollectionView<T, C: UICollectionViewCell>: UICollectionView, UICollectionViewDataSource
 SimpleTransition.swift
